@@ -1,0 +1,57 @@
+body{
+background: rgb(91, 91, 156);
+font: normal 15pt Arial;
+}
+header{
+color: white; 
+text-align: center;
+
+}
+
+ section{
+background: white;
+border-radius: 50px 50px 50px 50px;
+padding: 95px;
+width: 500px;
+margin: auto;
+box-shadow:5px 5px 10px rgba(0, 0, 0, 0.384);
+
+
+} 
+button {
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI';
+    font-size: 1.1em;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+button:hover
+{
+    background-color: aquamarine;
+ 
+}
+button:active{
+    background-color: azure;
+}
+.bg-green{
+    background-color: rgb(0, 255, 136);
+    align-content: center;
+
+}
+.bg-yellow{
+background-color: rgb(255, 255, 0);
+}
+.bg-red{   
+    background-color: red;
+   
+ 
+}
+footer{
+color: white;
+text-align: center;
+font-style: italic;
+
+}
